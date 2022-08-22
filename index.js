@@ -2,7 +2,7 @@ const firstNumber = parseInt(prompt('Enter first number:', ''));
 const operator = prompt('Enter operator */+-: ', '');
 const secondNumber = parseInt(prompt('Enter second number:', ''));
 
-if (Number.isNaN(firstNumber) === true || Number.isNaN(secondNumber) === true) {
+if (Number.isNaN(firstNumber) || Number.isNaN(secondNumber)) {
 
   alert(`Wrong number value`);
 
